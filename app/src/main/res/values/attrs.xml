@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <declare-styleable name="EballBannerView">
+   <attr name="isAdjustSize" format="boolean"/>
+   <attr name="OptionalPropertiesType" format="enum">
+   <enum name="DEFAULT" value="0" />
+   <enum name="OPTIONAL1" value="1" />
+   <enum name="OPTIONAL2" value="2" />
+   <enum name="OPTIONAL3" value="3" />
+   <enum name="OPTIONAL4" value="4" />
+   <enum name="OPTIONAL5" value="5" />
+   <enum name="OPTIONAL6" value="6" />
+   <enum name="OPTIONAL7" value="7" />
+   <enum name="OPTIONAL8" value="8" />
+   <enum name="OPTIONAL9" value="9" />
+   <enum name="OPTIONAL10" value="10" />
+   <enum name="OPTIONAL11" value="11" />
+   <enum name="OPTIONAL12" value="12" />
+   <enum name="OPTIONAL13" value="13" />
+   <enum name="OPTIONAL14" value="14" />
+   <enum name="OPTIONAL15" value="15" />
+   <enum name="OPTIONAL16" value="16" />
+   <enum name="OPTIONAL17" value="17" />
+   <enum name="OPTIONAL18" value="18" />
+   <enum name="OPTIONAL19" value="19" />
+   </attr>
+  </declare-styleable>
+</resources>

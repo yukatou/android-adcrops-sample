@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="jp.co.jcomi.adcropsample"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data android:value="12760" android:name="ADC_MEDIA_SITE_ID"></meta-data>
+        <meta-data android:value="BHQU4b8k" android:name="ADC_MEDIA_SITE_KEY"></meta-data>
+
+        <meta-data android:value="20" android:name="ADC_LIST_COUNT"></meta-data>
+        <meta-data android:value="60" android:name="ADC_CONVERSION_TIMER_INTERVAL"></meta-data>
+        <meta-data android:value="false" android:name="ADC_USE_INSTALLED_LIST_ITEM"></meta-data>
+        <meta-data android:value="false" android:name="ADC_USE_POINT_DISPLAY_ITEM"></meta-data>
+        <meta-data android:value="0" android:name="ADC_TITLE_BAR_TYPE"></meta-data>
+        <meta-data android:value="http://d0.adcrops.net" android:name="ADC_INSTALLED_LIST_ITEM_URL"></meta-data>
+    </application>
+
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
+
+
+</manifest>

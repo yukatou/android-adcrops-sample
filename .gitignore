@@ -1,0 +1,17 @@
+/local.properties
+.DS_Store
+/build
+/captures
+
+# Android Studio
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
